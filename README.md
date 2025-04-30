@@ -27,3 +27,51 @@ This approach has been tested and applied in several watersheds across Florida t
 ## Repository Structure
 
 ├── Notebooks/ │ ├── Input_preparation.ipynb │ ├── Risk_impact_assessment.ipynb │ └── Mapping_visualizations.ipynb ├── Documents/ │ ├── Data Management Guide.pdf │ └── README.md ├── SampleData/ │ └── Example_HUC12/ ├── Outputs/ │ └── FloodMaps/
+
+
+## Getting Started
+
+### Requirements
+
+- ArcGIS Pro with Python Notebook support (ArcPy environment)
+- Licensed access to ArcHydro tools within ArcGIS
+- Python 3.x (bundled with ArcGIS Pro)
+- Familiarity with ArcGIS geoprocessing tools and spatial data structure
+
+### Installation
+
+Clone the repository:
+
+```bash
+git clone https://github.com/your-username/flood-risk-mapping.git
+
+Open ArcGIS Pro and navigate to the Notebook tab. You can then run the .ipynb files directly, following the folder structure provided in this repository.
+
+Input Data Requirements
+DEM (LiDAR-based, in feet)
+
+Water table elevation raster
+
+Land cover (NLCD)
+
+Water mask and impervious mask rasters
+
+Design rainfall rasters for 1-day and 3-day events
+
+HUC12 boundary shapefiles
+
+Stormwater infrastructure (optional)
+
+Detailed instructions on data format and folder organization are provided in the Data Management Guide.
+
+Output
+Excel tables of Cascade model inputs
+
+Raster outputs of soil storage, z-scores, and flood extent
+
+Feature classes with flood risk and consequence scores
+
+Map layouts for flood scenarios
+
+Citation
+If you use this workflow in your research or planning project, please cite:

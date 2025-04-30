@@ -97,4 +97,6 @@ For questions, suggestions, or contributions, please contact:
 **Anil Kumar Mandal**  
 Department of Civil, Environmental, and Geomatics Engineering  
 Florida Atlantic University  
-Email: kanil2310@gmail.com
+Email: kanil2310@gmail.com, amandal2023@fau.edu
+
+

@@ -1,3 +1,4 @@
+
 # Semi-Automated Workflow for Multi-Scenario Flood Risk Mapping
 
 This repository provides the scripts, documentation, and example workflows developed as part of a study titled **"Semi-automated workflow for multi-basin, multi-scenario flood risk modeling, mapping, and impact assessment."** The tools are designed to automate flood modeling and mapping processes using Python in ArcGIS Pro.
@@ -26,8 +27,19 @@ This approach has been tested and applied in several watersheds across Florida t
 
 ## Repository Structure
 
-├── Notebooks/ │ ├── Input_preparation.ipynb │ ├── Risk_impact_assessment.ipynb │ └── Mapping_visualizations.ipynb ├── Documents/ │ ├── Data Management Guide.pdf │ └── README.md ├── SampleData/ │ └── Example_HUC12/ ├── Outputs/ │ └── FloodMaps/
-
+```
+├── Notebooks/
+│   ├── Input_preparation.ipynb
+│   ├── Risk_impact_assessment.ipynb
+│   └── Mapping_visualizations.ipynb
+├── Documents/
+│   ├── Data Management Guide.pdf
+│   └── README.md
+├── SampleData/
+│   └── Example_HUC12/
+├── Outputs/
+│   └── FloodMaps/
+```
 
 ## Getting Started
 
@@ -44,34 +56,44 @@ Clone the repository:
 
 ```bash
 git clone https://github.com/your-username/flood-risk-mapping.git
+```
 
-Open ArcGIS Pro and navigate to the Notebook tab. You can then run the .ipynb files directly, following the folder structure provided in this repository.
+Open ArcGIS Pro and navigate to the Notebook tab. You can then run the `.ipynb` files directly, following the folder structure provided in this repository.
 
-Input Data Requirements
-DEM (LiDAR-based, in feet)
+### Input Data Requirements
 
-Water table elevation raster
+- DEM (LiDAR-based, in feet)
+- Water table elevation raster
+- Land cover (NLCD)
+- Water mask and impervious mask rasters
+- Design rainfall rasters for 1-day and 3-day events
+- HUC12 boundary shapefiles
+- Stormwater infrastructure (optional)
 
-Land cover (NLCD)
+Detailed instructions on data format and folder organization are provided in the [Data Management Guide](Documents/Data%20Management%20Guide.pdf).
 
-Water mask and impervious mask rasters
+## Output
 
-Design rainfall rasters for 1-day and 3-day events
+- Excel tables of Cascade model inputs
+- Raster outputs of soil storage, z-scores, and flood extent
+- Feature classes with flood risk and consequence scores
+- Map layouts for flood scenarios
 
-HUC12 boundary shapefiles
+## Citation
 
-Stormwater infrastructure (optional)
-
-Detailed instructions on data format and folder organization are provided in the Data Management Guide.
-
-Output
-Excel tables of Cascade model inputs
-
-Raster outputs of soil storage, z-scores, and flood extent
-
-Feature classes with flood risk and consequence scores
-
-Map layouts for flood scenarios
-
-Citation
 If you use this workflow in your research or planning project, please cite:
+
+> Mandal, A. K., Chhetri, M. T., Bloetscher, F., Yong, Y., & Su, H. (2025). *Semi-automated workflow for multi-basin, multi-scenario flood risk modeling, mapping, and impact assessment*. (Under review, *Natural Hazards*).
+
+## License
+
+This project is shared for academic and non-commercial use. Please acknowledge the authors and Florida Atlantic University's Center for Water Resiliency and Risk Reduction (CWR³) in any derived work.
+
+## Contact
+
+For questions, suggestions, or contributions, please contact:
+
+**Anil Kumar Mandal**  
+Department of Civil, Environmental, and Geomatics Engineering  
+Florida Atlantic University  
+Email: kanil2310@gmail.com

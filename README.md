@@ -55,7 +55,7 @@ This approach has been tested and applied in several watersheds across Florida t
 Clone the repository:
 
 ```bash
-git clone https://github.com/your-username/flood-risk-mapping.git
+git clone https://github.com/mandalanil/Semi-Automated-workflow-for-flood-risk-mapping.git
 ```
 
 Open ArcGIS Pro and navigate to the Notebook tab. You can then run the `.ipynb` files directly, following the folder structure provided in this repository.

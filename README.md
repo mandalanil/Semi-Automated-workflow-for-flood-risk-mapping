@@ -70,7 +70,7 @@ Open ArcGIS Pro and navigate to the Notebook tab. You can then run the `.ipynb` 
 - HUC12 boundary shapefiles
 - Stormwater infrastructure (optional)
 
-Detailed instructions on data format and folder organization are provided in the [Data Management Guide](Doccuments\Data_Management_Guide.pdf).
+Detailed instructions on data format and folder organization are provided in the [Data Management Guide](https://github.com/mandalanil/Semi-Automated-workflow-for-flood-risk-mapping/blob/main/Doccuments/Data_Management_Guide.pdf).
 
 
 ## Output

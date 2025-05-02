@@ -28,17 +28,16 @@ This approach has been tested and applied in several watersheds across Florida t
 ## Repository Structure
 
 ```
+├── Doccuments/
+│ ├── Data_Management_Guide.pdf
+│ └── Prioritizing Risk Ch 5_for DD comp scores t....
+├── Map_templates/
 ├── Notebooks/
-│   ├── Input_preparation.ipynb
-│   ├── Risk_impact_assessment.ipynb
-│   └── Mapping_visualizations.ipynb
-├── Documents/
-│   ├── Data Management Guide.pdf
-│   └── README.md
+├── Outputs \ FloodMaps/
 ├── SampleData/
-│   └── Example_HUC12/
-├── Outputs/
-│   └── FloodMaps/
+├── .gitattributes
+├── LICENSE
+└── README.md
 ```
 
 ## Getting Started

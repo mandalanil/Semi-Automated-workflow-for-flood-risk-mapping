@@ -83,7 +83,7 @@ Detailed instructions on data format and folder organization are provided in the
 
 If you use this workflow in your research or planning project, please cite:
 
-> Mandal, A. K., Chhetri, M. T., Bloetscher, F., Yong, Y., & Su, H. (2025). *Semi-automated workflow for multi-basin, multi-scenario flood risk modeling, mapping, and impact assessment*. (accepted for publications, *Natural Hazards*).
+> Mandal, A.K., Thapa Chhetri, M., Bloetscher, F. et al. Semi-automated workflow for multi-basin, multi-scenario flood risk modeling, mapping, and impact assessment. Nat Hazards (2025). https://doi.org/10.1007/s11069-025-07361-6
 
 ## License
 
